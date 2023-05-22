@@ -1,0 +1,23 @@
+
+.results {
+    height: 40vh;
+    background-color: white;
+    width: 40%;
+    margin-left: 20%;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+  }
+  .itemslist {
+    border-radius:12px;
+    min-height: 45px;
+    margin: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+   
+  }
+  .itenmlist:hover {
+    background-color: rgb(236, 213, 236);
+  }
+  

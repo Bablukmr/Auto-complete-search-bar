@@ -1,0 +1,42 @@
+.searchBar {
+    width: 50vw;
+    height: 70vh;
+    border: 1px solid rgb(246, 251, 251);
+    margin: 5vh 26vw;
+    background-color: rgb(195, 222, 222);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px;
+    border-radius: 20px;
+  }
+  
+  .inputSearchBar {
+    width: 40%;
+    margin: 40px 20% 10px 20%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    background-color: white;
+    border-radius: 12px;
+    padding: 10px;
+  
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  input {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    height: 100%;
+    font-size: 1.25rem;
+    margin-left: 5px;
+  }
+  input:focus {
+    outline: none;
+  }
+  #searchicon {
+    color: rgb(117, 117, 187);
+  }
+  .mic{
+    font-size: 26px;
+    color: blue;
+  }
